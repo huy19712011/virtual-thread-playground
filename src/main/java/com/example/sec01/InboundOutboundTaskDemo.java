@@ -5,7 +5,7 @@ import java.util.concurrent.CountDownLatch;
 public class InboundOutboundTaskDemo {
 
     private static final int MAX_PLATFORM = 10;
-    private static final int MAX_VIRTUAL = 50_000; // 10, 200_000, 1_000_000
+    private static final int MAX_VIRTUAL = 20; // 10, 200_000, 1_000_000
 
     public static void main(String[] args) throws InterruptedException {
 
